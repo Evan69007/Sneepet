@@ -3,3 +3,6 @@ sessionStorage.setItem('key', 'value') // créé/modifie une clé dans le sessio
 
 JSON.parse(sessionStorage.getItem('key')) // parse un tableau/objet stocké dans le sessionStorage
 sessionStorage.setItem('key', JSON.stringify('value')) // met un tableau/objet en string pour pouvoir la stocker dans le sessionStorage et le récuperer plus tard grâce à JSON.parse()
+
+
+// Pareil pour le LocalStorage, mais le localStorage reste même après fermeture du navigateur contrairement au sessionStorage
